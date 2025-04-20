@@ -2,8 +2,8 @@
  require('dotenv').config();
 
  //Define the MongoDB connection URL
- //const mongoURL = process.env.MONGODB_URL_LOCAL // Replace with your MongoDB connection string
- const mongoURL =process.env.MONGODB_URL; //written password of mongodb that is 'mayank@8528' as 'mayank%408528' in the connection string.
+ const mongoURL = process.env.MONGODB_URL_LOCAL // Replace with your MongoDB connection string
+ //const mongoURL =process.env.MONGODB_URL; //written password of mongodb that is 'mayank@8528' as 'mayank%408528' in the connection string.
 
  //set up MongoDB connection 
  mongoose.connect(mongoURL, {
